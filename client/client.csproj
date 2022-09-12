@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\pong\Ball.cs" Link="Ball.cs" />
+    <Compile Include="..\pong\Geometry.cs" Link="Geometry.cs" />
+    <Compile Include="..\pong\NetworkMessage.cs" Link="NetworkMessage.cs" />
+    <Compile Include="..\pong\Packet.cs" Link="Packet.cs" />
+    <Compile Include="..\pong\Paddle.cs" Link="Paddle.cs" />
+    <Compile Include="..\pong\ThreadSafe.cs" Link="ThreadSafe.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.5.1.1679" />
+  </ItemGroup>
+
+</Project>

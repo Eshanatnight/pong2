@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MonoGame.Framework.DesktopGL/3.5.1.1679": {
+        "type": "package",
+        "compile": {
+          "lib/net40/MonoGame.Framework.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/NVorbis.dll": {},
+          "lib/net40/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MonoGame.Framework.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/NVorbis.dll": {},
+          "lib/net40/OpenTK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MonoGame.Framework.DesktopGL/3.5.1.1679": {
+      "sha512": "19Lc0ce+j+YGrRbmNM343vbbQZv3HTx7GOaakengTPBjmuRj2wcXNh2iB/ZMCAgavl+lbvxSP2Gio7adSR0xBw==",
+      "type": "package",
+      "path": "monogame.framework.desktopgl/3.5.1.1679",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MonoGame.Framework.dll",
+        "lib/net40/MonoGame.Framework.xml",
+        "lib/net40/NVorbis.dll",
+        "lib/net40/OpenTK.dll",
+        "monogame.framework.desktopgl.3.5.1.1679.nupkg.sha512",
+        "monogame.framework.desktopgl.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MonoGame.Framework.DesktopGL >= 3.5.1.1679"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\eshan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\dev\\cppgit2\\client\\client.csproj",
+      "projectName": "client",
+      "projectPath": "D:\\dev\\cppgit2\\client\\client.csproj",
+      "packagesPath": "C:\\Users\\eshan\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\cppgit2\\client\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\eshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": {
+            "target": "Package",
+            "version": "[3.5.1.1679, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MonoGame.Framework.DesktopGL 3.5.1.1679' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MonoGame.Framework.DesktopGL",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "server/1.0.0": {
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.5.1.1679"
+        },
+        "runtime": {
+          "server.dll": {}
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.5.1.1679": {
+        "runtime": {
+          "lib/net40/MonoGame.Framework.dll": {
+            "assemblyVersion": "3.5.1.1679",
+            "fileVersion": "3.5.1.1679"
+          },
+          "lib/net40/NVorbis.dll": {
+            "assemblyVersion": "0.8.4.0",
+            "fileVersion": "0.8.4.0"
+          },
+          "lib/net40/OpenTK.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.2265.6496"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoGame.Framework.DesktopGL/3.5.1.1679": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-19Lc0ce+j+YGrRbmNM343vbbQZv3HTx7GOaakengTPBjmuRj2wcXNh2iB/ZMCAgavl+lbvxSP2Gio7adSR0xBw==",
+      "path": "monogame.framework.desktopgl/3.5.1.1679",
+      "hashPath": "monogame.framework.desktopgl.3.5.1.1679.nupkg.sha512"
+    }
+  }
+}
